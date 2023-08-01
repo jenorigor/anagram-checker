@@ -1,7 +1,7 @@
 export const useAreStringsAnagrams = () => {
     const areStringsAnagrams = (firstString, secondString) => {
         if (
-            firstString.length !== secondString.length ||
+            firstString?.length !== secondString?.length ||
             firstString === secondString
         )
         {
