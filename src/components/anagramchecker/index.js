@@ -18,12 +18,12 @@ const AnagramChecker = () => {
 
     return (
         <div className="w-full max-w-lg">
-            <h1 className="mb-4">
+            <h1 className="mb-4 font-extrabold text-2xl">
                 Simple Anagram Checker
             </h1>
             {areAnagrams ?
                 <div
-                    className="p-4 mb-4 text-sm"
+                    className="p-4 mb-4 text-sm bg-lime-50 border-2 border-lime-500 rounded"
                     role="alert">
                     <span className="font-medium">Tada!</span> {firstString} and {secondString} are ANAGRAMS!
                 </div> : null
